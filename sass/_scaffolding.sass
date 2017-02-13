@@ -1,0 +1,37 @@
+html
+  -webkit-font-smoothing: antialiased
+
+body
+  font-family: $font-stack-arimo
+  font-size: $main
+  line-height: 1.5
+  background: $charcoal
+
+h1,h2,h3,h4,h5
+  font-family: $font-stack-pacifico
+  font-weight: 900
+
+// Full container
+.full-container
+  max-width: $full
+  padding: 0 1rem
+
+
+// Container
+.container
+  max-width: $large
+  padding: 0 1rem
+  margin-left: auto
+  margin-right: auto
+
+
+// Small container
+.small-container
+  @extend .container
+  max-width: $small
+
+
+// Medium container
+.medium-container
+  @extend .container
+  max-width: $medium
