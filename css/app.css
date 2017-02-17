@@ -214,7 +214,8 @@ table {
 #headline {
   font-size: 1.5em;
   font-weight: 300;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  padding-bottom: 40px; }
 
 /* Grid
 =============== */
@@ -684,5 +685,30 @@ h1, h2, h3, h4, h5 {
 .button::-moz-focus-inner, a.button::-moz-focus-inner, button::-moz-focus-inner, [type=submit]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=button]::-moz-focus-inner {
   border: 0;
   padding: 0; }
+
+#mini {
+  background-color: #8F857D;
+  color: #F7F0F5;
+  padding: 20px 0 20px 0;
+  text-align: center; }
+  #mini img {
+    height: 100px;
+    width: 100px; }
+
+#about {
+  text-align: center;
+  padding: 60px 0 60px 0; }
+  #about p {
+    color: #F7F0F5;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    font-weight: 600; }
+  #about img {
+    height: 200px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 50%;
+    box-shadow: 2px, 2px, 2px, rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=app.css.map */

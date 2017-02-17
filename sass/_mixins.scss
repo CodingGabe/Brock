@@ -1,6 +1,10 @@
 /* Mixins
   =============== */
 
+// My box shadow
+@mixin shadow($x,$y,$blur,$color) {
+	box-shadow: $x,$y,$blur,$color;
+}
 // Media query for mobile first layout
 @mixin small-breakpoint {
 	@media (min-width: #{$mobile}) {
@@ -13,4 +17,4 @@
 	@media (min-width: #{$desktop}) {
 		@content;
 	}
-} 
+}
